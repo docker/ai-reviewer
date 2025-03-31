@@ -1,0 +1,184 @@
+{
+  "comments": [
+    {
+      "id": "comment-1",
+      "text": "Jarvis’s interface is pretty clean and intuitive, which is a nice change from some of the more cluttered AI assistants I’ve tried. It’s easy to find what I’m looking for, though I do wish there were a few more visual options for customizing the display.",
+      "timestamp": "2025-03-31T11:32:59.823Z",
+      "metadata": {
+        "generatedType": "neutral",
+        "generatedTopic": "user interface"
+      }
+    },
+    {
+      "id": "comment-2",
+      "text": "“Jarvis is seriously impressive – the speed at which it responds is incredible! I’ve never used an AI assistant that’s so quick and efficient.”",
+      "timestamp": "2025-03-31T11:33:00.844Z",
+      "metadata": {
+        "generatedType": "positive",
+        "generatedTopic": "response speed"
+      }
+    },
+    {
+      "id": "comment-3",
+      "text": "Jarvis is seriously impressive – the information it provides is consistently accurate and incredibly detailed. I’ve been amazed at how well it understands my complex queries and delivers the right answers every time. It’s a total game-changer for my research!",
+      "timestamp": "2025-03-31T11:33:02.296Z",
+      "metadata": {
+        "generatedType": "positive",
+        "generatedTopic": "accuracy"
+      }
+    },
+    {
+      "id": "comment-4",
+      "text": "Jarvis is pretty helpful when it works, but I’ve noticed a few glitches lately – it sometimes misunderstands simple requests and occasionally just freezes up. It’s a promising tool, but needs a bit more refinement.",
+      "timestamp": "2025-03-31T11:33:03.647Z",
+      "metadata": {
+        "generatedType": "neutral",
+        "generatedTopic": "bugs"
+      }
+    },
+    {
+      "id": "comment-5",
+      "text": "Jarvis is pretty handy for quickly summarizing long documents, but I’d really like to see a feature to directly export those summaries to a note-taking app like Evernote. It would be great if Jarvis could also integrate with my calendar to remind me about key points from those summaries.",
+      "timestamp": "2025-03-31T11:33:05.264Z",
+      "metadata": {
+        "generatedType": "neutral",
+        "generatedTopic": "feature requests"
+      }
+    },
+    {
+      "id": "comment-6",
+      "text": "Jarvis is pretty handy for quick information retrieval, but the subscription cost feels a little high compared to some other AI assistants on the market. I'm still evaluating if the features justify the ongoing expense.",
+      "timestamp": "2025-03-31T11:33:06.478Z",
+      "metadata": {
+        "generatedType": "neutral",
+        "generatedTopic": "pricing"
+      }
+    },
+    {
+      "id": "comment-7",
+      "text": "Honestly, Jarvis is just a lot of empty promises. It keeps suggesting irrelevant articles and failing to actually understand my requests for help with my work – it’s not helpful at all.",
+      "timestamp": "2025-03-31T11:33:07.615Z",
+      "metadata": {
+        "generatedType": "negative",
+        "generatedTopic": "helpfulness"
+      }
+    },
+    {
+      "id": "comment-8",
+      "text": "Honestly, Jarvis is a game-changer. It’s so much more intuitive than those other AI assistants I’ve tried – the responses are actually helpful and it just *gets* what I’m asking for.",
+      "timestamp": "2025-03-31T11:33:08.904Z",
+      "metadata": {
+        "generatedType": "positive",
+        "generatedTopic": "comparison to competitors"
+      }
+    },
+    {
+      "id": "comment-9",
+      "text": "Jarvis is seriously impressive – it’s incredibly accurate with my research requests. I’ve been amazed at how quickly it nails the specific details I need, saving me so much time. Definitely a game-changer!",
+      "timestamp": "2025-03-31T11:33:10.195Z",
+      "metadata": {
+        "generatedType": "positive",
+        "generatedTopic": "accuracy"
+      }
+    },
+    {
+      "id": "comment-10",
+      "text": "Jarvis’s interface is pretty clean and straightforward, which is nice. I appreciate how easily I can navigate between the different functions, though sometimes the icons could be a little clearer. Overall, it’s a functional UI that gets the job done.",
+      "timestamp": "2025-03-31T11:33:11.696Z",
+      "metadata": {
+        "generatedType": "neutral",
+        "generatedTopic": "user interface"
+      }
+    },
+    {
+      "id": "comment-11",
+      "text": "Jarvis is pretty handy for quickly getting information and setting reminders, but I’ve noticed it occasionally misunderstands complex requests. Overall, it’s a useful tool, though I’m still getting used to its quirks.",
+      "timestamp": "2025-03-31T11:33:13.041Z",
+      "metadata": {
+        "generatedType": "neutral",
+        "generatedTopic": "general experience"
+      }
+    },
+    {
+      "id": "comment-12",
+      "text": "“Jarvis is seriously impressive – the speed at which it responds is incredible! I’ve never used an AI assistant that’s so quick and efficient.”",
+      "timestamp": "2025-03-31T11:33:14.077Z",
+      "metadata": {
+        "generatedType": "positive",
+        "generatedTopic": "response speed"
+      }
+    },
+    {
+      "id": "comment-13",
+      "text": "Honestly, Jarvis feels incredibly frustrating to use. It misunderstands my requests constantly, and the responses are often just generic and unhelpful – I’m wasting more time trying to get it to do simple things than I would just doing them myself.",
+      "timestamp": "2025-03-31T11:33:15.500Z",
+      "metadata": {
+        "generatedType": "negative",
+        "generatedTopic": "general experience"
+      }
+    },
+    {
+      "id": "comment-14",
+      "text": "Jarvis has been surprisingly helpful with scheduling meetings and quickly finding information. It’s definitely streamlined my workflow and I appreciate its responsiveness.",
+      "timestamp": "2025-03-31T11:33:16.376Z",
+      "metadata": {
+        "generatedType": "neutral",
+        "generatedTopic": "helpfulness"
+      }
+    },
+    {
+      "id": "comment-15",
+      "text": "“Jarvis is seriously impressive – the speed at which it responds is incredible! I’ve never used an AI assistant that’s so quick and efficient, it’s a game changer.”",
+      "timestamp": "2025-03-31T11:33:17.544Z",
+      "metadata": {
+        "generatedType": "positive",
+        "generatedTopic": "response speed"
+      }
+    },
+    {
+      "id": "comment-16",
+      "text": "Honestly, Jarvis is amazing! I was a little worried about the occasional glitches, but it’s actually gotten *better* at handling them – it just recovers really quickly and keeps going. I really appreciate how quickly the developers are addressing those little bugs.",
+      "timestamp": "2025-03-31T11:33:19.009Z",
+      "metadata": {
+        "generatedType": "positive",
+        "generatedTopic": "bugs"
+      }
+    },
+    {
+      "id": "comment-17",
+      "text": "Honestly, Jarvis is incredibly slow. It takes forever for it to process even simple requests, and I've wasted so much time waiting for a response. I'm starting to think it's not worth the effort.",
+      "timestamp": "2025-03-31T11:33:20.331Z",
+      "metadata": {
+        "generatedType": "negative",
+        "generatedTopic": "response speed"
+      }
+    },
+    {
+      "id": "comment-18",
+      "text": "Jarvis is pretty useful for scheduling and reminders, but the premium subscription feels a little pricey compared to some other AI assistants on the market. I’m still evaluating if the extra features are worth the ongoing cost.",
+      "timestamp": "2025-03-31T11:33:21.606Z",
+      "metadata": {
+        "generatedType": "neutral",
+        "generatedTopic": "pricing"
+      }
+    },
+    {
+      "id": "comment-19",
+      "text": "Jarvis is seriously impressive – it’s actually gotten my research questions right every time! I’m amazed at how accurate it is and it’s already saving me so much time.",
+      "timestamp": "2025-03-31T11:33:22.778Z",
+      "metadata": {
+        "generatedType": "positive",
+        "generatedTopic": "accuracy"
+      }
+    },
+    {
+      "id": "comment-20",
+      "text": "Honestly, Jarvis is amazing! I was really worried about the occasional glitches, but it’s actually gotten better at handling those little hiccups – it’s still learning, but I appreciate how quickly it recovers now.",
+      "timestamp": "2025-03-31T11:33:24.045Z",
+      "metadata": {
+        "generatedType": "positive",
+        "generatedTopic": "bugs"
+      }
+    }
+  ]
+}

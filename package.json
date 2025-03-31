@@ -1,0 +1,13 @@
+{
+  "name": "ai-reviewer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "description": "A Node.js application that demonstrates how to use an LLM to process user comments about a fictional AI assistant called Jarvis",
+  "dependencies": {
+    "openai": "^4.90.0"
+  }
+}
