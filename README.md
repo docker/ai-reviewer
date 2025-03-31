@@ -42,14 +42,20 @@ ai-reviewer/
 
 1. Clone the repository
 2. Install dependencies:
-
 ```bash
 npm install
 ```
 
-3. Enable Docker Model Runner:
+3. Enable Docker Model Runner and listen on port 12434:
+```bash
+docker desktop enable model-runner --tcp 12434
+```
 
-//TODO explain
+4. Pull the Gemma3 model:
+
+```bash
+docker model pull ai/gemma3
+```
 
 ## Usage
 
@@ -80,13 +86,6 @@ You can customize the application behavior by modifying `src/config.js`:
 ### Comment Generation
 
 The system uses Gemma3 to generate synthetic user comments about Jarvis, focusing on various aspects like UI, performance, features, etc. These comments are stored in JSON format with metadata.
-
-### ES Modules
-
-This project uses ES Modules instead of CommonJS:
-- Uses `import`/`export` syntax instead of `require`/`module.exports`
-- Package.json includes `"type": "module"` to enable ES Modules
-- File extensions are included in import paths (e.g., `import config from './config.js'`)
 
 ### Comment Processing
 
