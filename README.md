@@ -104,7 +104,3 @@ The system generates a summary that includes:
 - Sample comments and responses
 
 Detailed results are saved to `data/results.json` for further analysis.
-
-## License
-
-//TODO
