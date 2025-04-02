@@ -5,8 +5,8 @@
 export default {
   // Model configuration
   openai: {
-    baseURL: "http://localhost:12434/engines/llama.cpp/v1", // Base URL for Docker Model Runner
-    apiKey: 'docker',
+    baseURL: "http://localhost:12434/engines/v1", // Base URL for Docker Model Runner
+    apiKey: 'ignored',
     model: "ai/gemma3", // Model to use for generation and processing
     commentGeneration: {
       temperature: 0.3,

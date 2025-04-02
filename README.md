@@ -36,7 +36,10 @@ ai-reviewer/
 ## Requirements
 
 - Node.js v20.10.0 or later (ES Modules support)
-- Docker Model Runner
+- Docker Desktop v4.40.0 or later (includes Docker Model Runner)
+- Hardware Requirements:
+  - Minimum 3.4GB VRAM for Gemma3 model
+  - Minimum 2.5GB disk space for Gemma3 model
 
 ## Installation
 
