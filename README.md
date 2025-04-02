@@ -60,6 +60,12 @@ docker desktop enable model-runner --tcp 12434
 docker model pull ai/gemma3
 ```
 
+5. Pull the embeddings model:
+
+```bash
+docker model pull ai/mxbai-embed-large
+```
+
 ## Usage
 
 Run the application:
