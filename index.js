@@ -31,19 +31,21 @@ async function main() {
       console.log(`Loaded ${comments.length} existing comments from ${config.paths.commentsFile}`);
       
       // Ask if user wants to regenerate comments
-      const rl = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout
-      });
-      
-      const answer = await new Promise(resolve => {
-        rl.question('Do you want to regenerate comments? (y/n): ', resolve);
-      });
-      
-      rl.close();
-      
-      if (answer.toLowerCase() === 'y') {
-        comments = await generateComments();
+      if (config.generator.allowRegenerateComments) {
+        const rl = readline.createInterface({
+          input: process.stdin,
+          output: process.stdout
+        });
+
+        await new Promise(resolve => {
+          rl.question('Do you want to regenerate comments? (y/n): ', resolve);
+        });
+
+        rl.close();
+
+        if (answer.toLowerCase() === 'y') {
+          comments = await generateComments();
+        }
       }
     } catch (error) {
       // Generate new comments if file doesn't exist or is invalid

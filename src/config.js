@@ -2,6 +2,17 @@
  * Configuration settings for the Comment Processing System
  */
 
+function asBoolean(value, defaultValue) {
+  if (!value) return defaultValue;
+  if (typeof value === 'string') {
+    return value.toLowerCase() === 'true';
+  }
+  if (typeof value === 'boolean') {
+    return value;
+  }
+  return defaultValue;
+}
+
 export default {
   // Model configuration
   openai: {
@@ -20,6 +31,7 @@ export default {
   
   // Comment generation settings
   generator: {
+    allowRegenerateComments: asBoolean(process.env.ALLOW_GENERATE_COMMENTS, true),
     numComments: 20, // Number of synthetic comments to generate
     commentTypes: ["positive", "negative", "neutral"], // Types of comments to generate
     topics: [
