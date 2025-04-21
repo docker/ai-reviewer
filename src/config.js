@@ -5,16 +5,16 @@
 export default {
   // Model configuration
   openai: {
-    baseURL: "http://localhost:12434/engines/v1", // Base URL for Docker Model Runner
+    baseURL: process.env.OPENAI_BASE_URL || "http://localhost:12434/engines/v1", // Base URL for Docker Model Runner
     apiKey: 'ignored',
-    model: "ai/gemma3", // Model to use for generation and processing
+    model: process.env.LLM_MODEL || "ai/gemma3", // Model to use for generation and processing
     commentGeneration: {
       temperature: 0.3,
       max_tokens: 250,
       n: 1,
     },
     embedding: {
-      model: "ai/mxbai-embed-large", // Model for generating embeddings
+      model: process.env.EMBEDDINGS_MODEL || "ai/mxbai-embed-large", // Model for generating embeddings
     },
   },
   
