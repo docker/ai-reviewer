@@ -37,7 +37,7 @@ async function main() {
           output: process.stdout
         });
 
-        await new Promise(resolve => {
+        const answer = await new Promise(resolve => {
           rl.question('Do you want to regenerate comments? (y/n): ', resolve);
         });
 
