@@ -1,0 +1,26 @@
+services:
+
+  llm:
+    provider:
+      type: model
+      options:
+        model: jacobhoward459/phi4-mini-instruct:3.84B-Q4_0
+
+  embedding:
+    provider:
+      type: model
+      options:
+        model: ai/mxbai-embed-large
+
+  app:
+    build: ./
+    volumes:
+      - ./data:/usr/local/app/data
+    depends_on:
+      - llm
+      - embedding
+    environment:
+      OPENAI_BASE_URL: http://model-runner.docker.internal/engines/v1
+      LLM_MODEL: jacobhoward459/phi4-mini-instruct:3.84B-Q4_0
+      EMBEDDINGS_MODEL: ai/mxbai-embed-large
+      ALLOW_GENERATE_COMMENTS: "false"
