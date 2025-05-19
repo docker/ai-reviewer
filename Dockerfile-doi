@@ -1,0 +1,8 @@
+FROM node:24.0
+WORKDIR /usr/local/app
+COPY package* ./
+RUN npm install
+COPY ./data ./data
+COPY index.js ./
+COPY ./src ./src
+CMD ["node", "index.js"]
