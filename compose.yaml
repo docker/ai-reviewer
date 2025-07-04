@@ -1,0 +1,17 @@
+services:
+  app:
+    build: ./
+    ports:
+      - "8080:8080"
+    models:
+      gemma3:
+         endpoint_var: OPENAI_BASE_URL
+         model_var: LLM_MODEL
+      embeddings:
+        model_var: EMBEDDINGS_MODEL
+
+models:
+  gemma3:
+    model: ai/gemma3:4B-F16
+  embeddings:
+    model: ai/mxbai-embed-large
